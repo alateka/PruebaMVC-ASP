@@ -4,13 +4,13 @@ namespace SampleMVCApps.Controllers
 {  
     public class PruebaController:Controller  
     {  
-        public IActionResult Index()  
+        public IActionResult index()  
         {     
             ViewData["Message"]="Hello, This is my view";  
             return View();  
         }  
   
-        public IActionResult Prueba()  
+        public IActionResult prueba()  
         {  
             ViewData["Message"]="Hello, Welcome to HelloWorld Application";  
             return View();  
